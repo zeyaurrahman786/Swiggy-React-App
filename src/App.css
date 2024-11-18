@@ -1,0 +1,49 @@
+.overlay {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 1));
+    background-color: #ff5200;
+}
+
+.black-overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer p{
+    color: rgba(2, 6, 12, 0.6);
+    font-weight: 600;
+    margin: 8px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+
+}
+.footer p:hover{
+    color: rgba(2, 6, 12, 0.803);
+    
+}
+
+
+.locationSet:hover h2{
+    color: #ff5200;
+}
+
+
+.filterSection {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.filterSection filter{
+    border: 1px solid #555;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    color: #444;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.filterSection filter:hover{
+    background-color: #eeeeee;
+}
