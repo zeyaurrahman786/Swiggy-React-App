@@ -31,7 +31,6 @@ const PopUp = ({ popup, setPopup }) => {
                     <p className="text-sm text-gray-500 leading-relaxed mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, asperiores impedit ab aliquid ratione cons, incidunt ipsam ducimus nesciunt possimus repellendus.</p>
                 </div>
 
-
                 <Link to='/'>
                     <button type="button"
                         onClick={() => setPopup(false)}

@@ -11,8 +11,8 @@ const Cart = ({ cart, setCart }) => {
             <div className='w-[400px] h-[500px] bg-white absolute flex flex-col items-center right-20 rounded top-20 border-t-4 border-[#ff5200]'
                 onClick={(e) => e.stopPropagation()}
             >
-                <RiArrowDownSFill className='text-[#ff5200] text-3xl rotate-180 absolute font-bold top-[-22px] right-24'/>
-                    <h1 className='text-[2.5rem] font-bold text-gray-600 mt-3'>Empty Cart</h1>
+                <RiArrowDownSFill className='text-[#ff5200] text-3xl rotate-180 absolute font-bold top-[-22px] right-24' />
+                <h1 className='text-[2.5rem] font-bold text-gray-600 mt-3'>Empty Cart</h1>
             </div>
         </div >
     )

@@ -6,7 +6,7 @@ import PopUp from './PopUp';
 
 const BuyNowCard = () => {
     let { id } = useParams();
-    let { recipiesData  } = useContext(Context);
+    let { recipiesData } = useContext(Context);
     let newData = recipiesData.filter((val, ind) => ind.toString() === id);
 
 
@@ -14,7 +14,7 @@ const BuyNowCard = () => {
 
     return (
         <div className="mt-28 flex items-center justify-center">
-            {newData.map((val , id) => (
+            {newData.map((val, id) => (
                 <div className="bg-white shadow-lg rounded-lg p-6 max-w-lg text-center">
                     <h1 className="text-4xl font-extrabold text-gray-800 mb-4">{val.title}</h1>
                     <div className="mt-5 overflow-hidden">
@@ -39,9 +39,9 @@ const BuyNowCard = () => {
                         <button className="mt-4 px-6 py-2 bg-green-600 text-white font-semibold rounded hover:bg-green-500 transition duration-300"
                             onClick={() => {
                                 setPopup(true)
-                                type = 'add' ,  payload = id
+                                type = 'add', payload = id
                             }}
-                           
+
                         >
                             Buy Now
                         </button>
@@ -49,11 +49,8 @@ const BuyNowCard = () => {
                 </div>
             ))}
 
-
-
             {/* Pop Up  */}
             <PopUp popup={popup} setPopup={setPopup} />
-
 
         </div>
 

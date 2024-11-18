@@ -14,7 +14,7 @@ const Home = () => {
       <RestorentFood />
       <ResWithOn_Food />
       <BestPlace />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

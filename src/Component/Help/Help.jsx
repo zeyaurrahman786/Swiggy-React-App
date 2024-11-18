@@ -26,7 +26,7 @@ const Help = () => {
                 <div className="main-question mb-8 flex flex-col divide-y text-gray-800 text-base">
                     {["Popular articles", "Fix problems & request removals", "Browse the web", "Search on your phone or tablet"].map((title, index) => (
                         <div className="item px-6 py-6" key={index}>
-                            <p  className="flex items-center justify-between" onClick={(e) => { e.preventDefault(); toggleItem(index); }}>
+                            <p className="flex items-center justify-between" onClick={(e) => { e.preventDefault(); toggleItem(index); }}>
                                 <h4 className={openItems[index] ? 'text-[#ff5200] font-bold' : ''}>{title}</h4>
                                 <svg className="w-5 h-5 text-gray-500" fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
                                     <path d="M19 9l-7 7-7-7"></path>

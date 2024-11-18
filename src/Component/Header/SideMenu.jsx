@@ -3,7 +3,7 @@ import { CgSearch } from 'react-icons/cg'
 import { FaMapLocationDot } from 'react-icons/fa6'
 import { RxCross2 } from 'react-icons/rx'
 
-const SideMenu = ({togle , setTogle}) => {
+const SideMenu = ({ togle, setTogle }) => {
     return (
         <div className='black-overlay h-full w-full fixed opacity-100 duration-500 z-20 top-0'
             style={{ opacity: togle ? 1 : 0, visibility: togle ? 'visible' : 'hidden' }}

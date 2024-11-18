@@ -16,9 +16,6 @@ const ResWithOn_Food = () => {
     return (
         <div className='max-w-[1200px] mx-auto px-3 mt-10'>
 
-
-
-
             <div className='flex items-center justify-between mb-5'>
                 <h2 className='text-2xl font-bold'>Restaurants with online food delivery in Chhindwara
 

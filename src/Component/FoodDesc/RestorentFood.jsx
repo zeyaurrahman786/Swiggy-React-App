@@ -46,8 +46,8 @@ const RestorentFood = () => {
                 {
                     recipiesData.map((ele, ind) => (
                         <div key={ind} className='flex flex-col  w-[275px] shrink-0 duration-500 cursor-pointer'
-                         style={{ transform: `translateX(${slide * -150}px)` }}
-                         onClick={()=>clickHandler(ind)}
+                            style={{ transform: `translateX(${slide * -150}px)` }}
+                            onClick={() => clickHandler(ind)}
                         >
                             <div className='overlay h-[185px] w-[273px] rounded-xl overflow-hidden relative '>
                                 <img className='h-full w-full object-cover duration-500 hover:scale-110' src={ele.image} alt={ele.name} />

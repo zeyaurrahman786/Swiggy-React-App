@@ -27,7 +27,7 @@ const WhatsYourMind = () => {
                     <div className='flex items-center justify-between bg-[#02060c26] rounded-full p-[10px] cursor-pointer duration-500 active:scale-105' onClick={() => decrSlide()}><FaArrowLeft /></div>
                     <div className='flex items-center justify-between bg-[#02060c26] rounded-full p-[10px] cursor-pointer duration-500  active:scale-105' onClick={() => incrSlide()}><FaArrowRight /></div>
                 </div>
-            </div> 
+            </div>
 
             <div className='flex gap-6 overflow-hidden mt-5'>
                 {

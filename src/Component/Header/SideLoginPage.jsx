@@ -3,9 +3,9 @@ import { CgMail } from 'react-icons/cg'
 import { CiUser } from 'react-icons/ci'
 import { MdAddIcCall } from 'react-icons/md'
 import { RxCross2 } from 'react-icons/rx'
- 
 
-const SideLoginPage = ({ loginTogle, setloginTogle ,switchs , setSwitchs , referal , SetReferal }) => {
+
+const SideLoginPage = ({ loginTogle, setloginTogle, switchs, setSwitchs, referal, SetReferal }) => {
     return (
         <div className='black-overlay h-full w-full fixed z-20 opacity-100 duration-500 top-0'
             style={{ opacity: loginTogle ? 1 : 0, visibility: loginTogle ? 'visible' : 'hidden' }}
@@ -64,9 +64,6 @@ const SideLoginPage = ({ loginTogle, setloginTogle ,switchs , setSwitchs , refer
                     </div>
                     <button className='bg-[#ff5200] text-[#fff] font-semibold w-32 rounded py-[6px] mt-8 '>Continue</button>
                 </div>
-
-
-
             </div>
         </div >
     )

@@ -11,7 +11,6 @@ const GoToKnowUs = () => {
                     <p className='h-[2px] w-20 bg-[#ff5200] mt-3'></p>
                 </div>
 
-
                 <div className='flex items-center gap-16 mt-20 mb-20'>
                     <div className='w-[60%] text-xl text-gray-700'>
                         <p>Our mission is to elevate the quality of life of the urban consumer by offering unparalleled convenience. Convenience is what makes us tick. It’s what makes us get out of bed and say, “Let’s do this.</p>
